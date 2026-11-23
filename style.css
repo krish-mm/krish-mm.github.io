@@ -378,6 +378,11 @@ button:focus-visible {
   background: var(--accent);
 }
 
+.intro-list strong {
+  color: var(--accent-text);
+  font-weight: 600;
+}
+
 .hero-graphic {
   min-width: 0;
   max-width: 24rem;
