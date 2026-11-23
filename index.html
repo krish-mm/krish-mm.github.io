@@ -42,8 +42,15 @@
   <main>
     <section class="hero" id="home">
       <div class="container hero-inner">
+        <div class="hero-photo">
+          <picture>
+            <source type="image/webp" media="(max-width: 860px)" srcset="assets/krish-portrait-square.webp">
+            <source type="image/jpeg" media="(max-width: 860px)" srcset="assets/krish-portrait-square.jpg">
+            <source type="image/webp" srcset="assets/krish-portrait.webp">
+            <img src="assets/krish-portrait.jpg" alt="Krish Moodbidri" width="640" height="800" loading="eager" fetchpriority="high" decoding="async">
+          </picture>
+        </div>
         <div class="hero-copy">
-          <div class="hero-monogram" aria-hidden="true">KM</div>
           <p class="eyebrow">Portfolio</p>
           <h1>Krish Moodbidri</h1>
           <p class="hero-hook">Automating the boring parts of research computing</p>
