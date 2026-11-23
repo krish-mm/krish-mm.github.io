@@ -354,6 +354,11 @@ button:focus-visible {
   gap: 0.7rem;
 }
 
+.about-highlights {
+  margin-top: 1.15rem;
+  max-width: 46rem;
+}
+
 .intro-list li {
   position: relative;
   padding-left: 1.05rem;
